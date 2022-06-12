@@ -9,3 +9,8 @@ license = "BlueOak-1.0.0"
 publish = false
 
 [dependencies]
+dotenv = "0.15"
+dptree = "0.2"
+smallvec = "1.8"
+teloxide = { version = "0.9", features = ["auto-send", "ctrlc_handler", "rustls"], default-features = false }
+tokio = { version = "1.19", features = ["macros", "rt-multi-thread"] }

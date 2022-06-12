@@ -31,6 +31,9 @@ lint: cargo.lint
 test: test.cargo
 
 
+up: cargo.run
+
+
 
 
 ##################
@@ -69,6 +72,15 @@ cargo.lint:
 	cargo clippy --all-features -- -D warnings
 
 
+# Run project Rust sources with Cargo.
+#
+# Usage:
+#	make cargo.run
+
+cargo.run:
+	cargo run
+
+
 cargo.test: test.cargo
 
 
@@ -93,6 +105,6 @@ test.cargo:
 # .PHONY section #
 ##################
 
-.PHONY: all docs fmt lint test \
-        cargo.doc cargo.fmt cargo.lint cargo.test \
+.PHONY: all docs fmt lint test up \
+        cargo.doc cargo.fmt cargo.lint cargo.run cargo.test \
         test.cargo
