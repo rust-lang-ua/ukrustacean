@@ -17,6 +17,10 @@ max_line_length = off
 indent_style = space
 indent_size = 4
 
+[*.ftl]
+indent_style = space
+indent_size = 4
+
 [*.toml]
 indent_style = space
 indent_size = 4
