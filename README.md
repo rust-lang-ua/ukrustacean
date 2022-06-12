@@ -1,6 +1,7 @@
 Ukrustacean
 ===========
 
+[![CI](https://github.com/rust-lang-ua/ukrustacean/workflows/CI/badge.svg?branch=main "CI")](https://github.com/rust-lang-ua/ukrustacean/actions?query=workflow%3ACI+branch%3Amain)
 [![Rust 1.61+](https://img.shields.io/badge/rustc-1.61+-lightgray.svg "Rust 1.61+")](https://blog.rust-lang.org/2022/05/19/Rust-1.61.0.html)
 [![Unsafe Forbidden](https://img.shields.io/badge/unsafe-forbidden-success.svg "Unsafe forbidden")](https://github.com/rust-secure-code/safety-dance)
 

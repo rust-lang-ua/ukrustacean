@@ -15,7 +15,7 @@ impl L10n {
     pub fn init() -> anyhow::Result<Self> {
         let locale = env::var("CONF_L10N_LOCALE")
             .map(|locale| Cow::Owned(locale))
-            .unwrap_or_else(|_| Cow::Borrowed("en_US"))
+            .unwrap_or_else(|_| Cow::Borrowed("uk_UA"))
             .as_ref()
             .parse::<LanguageIdentifier>()
             .map_err(|e| {
